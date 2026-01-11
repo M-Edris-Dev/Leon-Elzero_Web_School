@@ -300,7 +300,7 @@ footer span {
     justify-content: space-evenly;
   }
   .features div {
-    text-align: center;
+    text-align: center; 
     width: 340px;
     height: 200px;
     line-height: 30px;
@@ -308,8 +308,8 @@ footer span {
   .services .containers {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(2, 1fr);
     align-items: center;
     justify-content: space-evenly;
   }
