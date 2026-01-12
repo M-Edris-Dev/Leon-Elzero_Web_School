@@ -194,7 +194,7 @@ footer span {
     text-align: center;
     margin: 30px 0;
   }
-  .about {
+  .about .about-container{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
